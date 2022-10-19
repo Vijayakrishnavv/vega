@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="Vendor based test ">
+
+<listeners>
+       <listener class-name="com.vega.listners.TestListener"/>
+  </listeners>
+
+
+	<test name="Vendor based test  in  Firefox">
+
+		<parameter name="browser" value="Firefox" />
+		<parameter name="appURL"
+			value="https://vegastandby.gnrgy.com/" />
+
+
+
+		<classes>
+
+			<class name="com.vega.testcases.VendorAndAccessDeniesTest" />
+
+		</classes>
+	</test> <!-- Test -->
+
+
+
+
+
+
+</suite> <!-- Suite -->

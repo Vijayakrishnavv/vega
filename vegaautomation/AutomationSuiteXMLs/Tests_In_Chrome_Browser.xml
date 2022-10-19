@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="Vega Test Suite In Chrome Browser">
+
+
+
+<suite-files>
+
+<suite-file path = "XMLFiles/Login_testng.xml"> </suite-file>
+
+
+
+<!-- <suite-file path = "XMLFiles/Login_testng.xml"> </suite-file>
+<suite-file path = "XMLFiles/Vendor_AccessDenied_testng.xml"> </suite-file>
+<suite-file path = "XMLFiles/Dashboard_testng.xml"> </suite-file>
+<suite-file path = "XMLFiles/Charging_Stations_testng.xml"> </suite-file>
+<suite-file path = "XMLFiles/ChargingTransactionTest_testng.xml"> </suite-file>  
+<suite-file path = "XMLFiles/ChargeSpot_testng.xml"> </suite-file>  -->
+
+</suite-files>
+ 
+
+  
+  
+  
+  
+</suite> <!--Vega Test Suite In Chrome Browser  -->
+

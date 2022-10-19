@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="DashboardTest IN Firefox">
+
+<listeners>
+       <listener class-name="com.vega.listners.TestListener"/>
+  </listeners>
+
+
+  <test name="DashboardTest IN Firefox">
+  
+  <parameter name="browser" value="Firefox" />
+		<parameter name="appURL"
+			value="https://vegastandby.gnrgy.com/" />
+  
+  
+    <classes>
+      <class name="com.vega.testcases.DasboardPageTest"/>
+    </classes>
+    
+    
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

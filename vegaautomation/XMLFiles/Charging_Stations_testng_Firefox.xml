@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+
+<suite name="Charging station page ">
+<listeners>
+       <listener class-name="com.vega.listners.TestListener"/>
+  </listeners>
+
+	<test  name=" Charging station page test in Firefox browser">
+	
+		<parameter name="browser" value="Firefox" />
+		<parameter name="appURL"
+			value="https://vegastandby.gnrgy.com/" />
+			
+			<groups>
+			
+			<run>
+			
+			<exclude name="Not implemented in Firefox"></exclude>
+			
+			</run>
+			
+			</groups>
+			
+		
+		<classes>
+			<class name="com.vega.testcases.ChargingPageTest" />
+		</classes>
+		
+	</test>
+
+
+</suite> <!-- Suite -->

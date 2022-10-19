@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="Vega Test Suite In Firefox Browser">
+
+
+<suite-files>
+
+ 
+
+<suite-file path = "XMLFiles/Login_testng_Firefox.xml"> </suite-file>
+
+
+<!--  <suite-file path = "XMLFiles/Login_testng_Firefox.xml"> </suite-file>
+<suite-file path = "XMLFiles/Vendor_AccessDenied_testng_Firefox.xml"> </suite-file>
+<suite-file path = "XMLFiles/Dashboard_testng_Firefox.xml"> </suite-file>
+<suite-file path = "XMLFiles/Charging_Stations_testng_Firefox.xml"> </suite-file>
+<suite-file path = "XMLFiles/ChargingTransactionTest_testng_Firefox.xml"> </suite-file>  
+<suite-file path = "XMLFiles/ChargeSpot_testng_Firefox.xml"> </suite-file>  -->
+
+
+</suite-files>
+ 
+
+  
+  
+  
+  
+</suite> <!-- Vega Test Suite In Firefox Browser -->
+
